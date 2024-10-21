@@ -1,1 +1,36 @@
-[2024-10-20 09:58:14,478: INFO: main: This is th beginning of the Data Science Full Stack Project]
+[2024-10-21 19:04:34,162: INFO: main: >>>>>>>> stage Data Ingestion Pipeline started<<<<<]
+[2024-10-21 19:04:34,163: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-10-21 19:04:34,166: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 19:04:34,166: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-10-21 19:04:34,166: INFO: common: created directory at: artifacts]
+[2024-10-21 19:04:34,166: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-21 19:04:34,718: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2D5B:351B72:365D38:3B09A7:6716DE02
+Accept-Ranges: bytes
+Date: Mon, 21 Oct 2024 23:04:34 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lga21923-LGA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1729551875.630388,VS0,VE96
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d9ad9dc497addf4dfb24c95a307f7e1869d17841
+Expires: Mon, 21 Oct 2024 23:09:34 GMT
+Source-Age: 0
+
+]
+[2024-10-21 19:04:34,721: INFO: main: >>>>>>>> stage Data Ingestion Pipeline finished<<<<<
+
+x======x]

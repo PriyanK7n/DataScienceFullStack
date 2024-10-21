@@ -28,8 +28,8 @@ list_of_files=[
     "templates/index.html",
     "app.py"
     # , "requirements.txt"
-
 ]
+
 
 
 for filepath in list_of_files:

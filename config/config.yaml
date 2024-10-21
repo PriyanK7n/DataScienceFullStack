@@ -1,0 +1,11 @@
+artifacts_root: artifacts
+
+# data ingestion pipeline workflow
+data_ingestion: # data ingestion pipeline workflow
+  root_dir: artifacts/data_ingestion  # artifacts folder created when data ingestion pipeline is run
+  source_URL: https://github.com/krishnaik06/datasets/raw/refs/heads/main/winequality-data.zip # github source where data (zip is present)
+  local_data_file: artifacts/data_ingestion/data.zip # path where data(zip) when extracted is stored
+  unzip_dir: artifacts/data_ingestion # data(zip) is unzipped with file location
+
+ 
+  
