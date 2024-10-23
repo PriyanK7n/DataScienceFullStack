@@ -7,5 +7,13 @@ data_ingestion: # data ingestion pipeline workflow
   local_data_file: artifacts/data_ingestion/data.zip # path where data(zip) when extracted is stored
   unzip_dir: artifacts/data_ingestion # data(zip) is unzipped with file location
 
- 
-  
+# data validation pipeline workflow
+data_validation: # data ingestion pipeline workflow
+  root_dir: artifacts/data_validation  # when data data_validation pipeline is run this folder is created
+  unzip_data_dir: artifacts/data_validation/winequality-red.csv # unzipped new test data file location whose schema needs to be validated
+  STATUS_FILE: artifacts/data_validation/status.txt
+
+# data transformation pipeline workflow
+data_transformation: # data transformation pipeline workflow
+  root_dir: artifacts/data_transformation  # when data data_transformation pipeline is run this folder is created
+  data_path: artifacts/data_ingestion/winequality-red.csv
